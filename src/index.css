@@ -49,20 +49,12 @@ p {
 }
 
 .nav__text {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1rem;
   letter-spacing: -1px;
   padding: 0 0.5rem;
   color: var(--nav-text);
 
-}
-
-@media screen and (min-width:768px) {
-  .nav__text {
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    letter-spacing: -1.5px;
-  }
 }
 
 /* entry styles*/
