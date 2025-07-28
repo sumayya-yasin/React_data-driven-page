@@ -36,7 +36,7 @@ p {
 /* navigation bar */
 
 .nav {
-  padding: 0.3rem 0.5rem;
+  padding: 0.4rem 0.5rem;
   background: var(--primary-pink);
   display: flex;
   justify-content: center;
@@ -60,8 +60,7 @@ p {
 @media screen and (min-width:768px) {
   .nav__text {
     font-size: 1.2rem;
-    padding: 0.2rem;
-    letter-spacing: -2px;
+    letter-spacing: -1.2px;
   }
 }
 
