@@ -6,10 +6,10 @@ export default function Entry(props) {
         <picture>
           <source
             type="image/png"
-            srcSet="src\images\location.png 1x, src\images\location@2x.png 2x"
+            srcSet="..\images\location.png 1x, ..\images\location@2x.png 2x"
           />
           <img
-            src="src\images\location.png"
+            src="..\images\location.png"
             alt=""
             className="entry__location__image"
           />
