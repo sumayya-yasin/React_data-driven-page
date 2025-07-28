@@ -149,6 +149,6 @@ p {
 
 @media screen and (min-width:1024px) {
   .entry__text {
-    font-size: .9rem;
+    font-size: .6rem;
   }
 }
