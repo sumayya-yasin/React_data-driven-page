@@ -1,16 +1,7 @@
 export default function Entry(props) {
-  const abc = props.img.src.replace(".png", "@2x.png");
-  console.log(abc);
-
   return (
     <article className="entry">
-      {/* <picture>
-        <source
-          type="image/png"
-          srcSet="{props.img.src} 1x, {props.img.src.replace('.png', '@2x.png')} 2x"
-        /> */}
       <img src={props.img.src} alt={props.img.alt} className="entry__image" />
-      {/* </picture> */}
       <div className="entry__content">
         <picture>
           <source
