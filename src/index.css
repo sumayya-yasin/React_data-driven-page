@@ -58,11 +58,6 @@ p {
 }
 
 @media screen and (min-width:768px) {
-
-  .nav__logo {
-    width: 35px;
-  }
-
   .nav__text {
     font-size: 1.5rem;
     padding: 0.5rem;
