@@ -1,3 +1,6 @@
+import locationImage from "../../public/images/location.png";
+import locationImage2x from "../../public/images/location@2x.png";
+
 export default function Entry(props) {
   return (
     <article className="entry">
@@ -6,13 +9,9 @@ export default function Entry(props) {
         <picture>
           <source
             type="image/png"
-            srcSet="..\images\location.png 1x, ..\images\location@2x.png 2x"
+            srcSet={`${locationImage} 1x, ${locationImage2x} 2x`}
           />
-          <img
-            src="..\images\location.png"
-            alt=""
-            className="entry__location__image"
-          />
+          <img src={locationImage} alt="" className="entry__location__image" />
         </picture>
 
         <span className="entry__location__title">{props.country}</span>

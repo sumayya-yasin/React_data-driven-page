@@ -36,11 +36,12 @@ p {
 /* navigation bar */
 
 .nav {
-  padding: 0.6rem 1rem;
+  padding: 0.2rem .5rem;
   background: var(--primary-pink);
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: .7rem;
 }
 
 .nav__logo {
@@ -86,6 +87,7 @@ p {
   width: 125px;
   height: 168px;
   object-fit: cover;
+  border-radius: 5px;
 }
 
 .entry__content {
