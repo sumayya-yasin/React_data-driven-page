@@ -1,5 +1,5 @@
-import locationImage from "../../public/images/location.png";
-import locationImage2x from "../../public/images/location@2x.png";
+import locationImage from "../images/location.png";
+import locationImage2x from "../images/location@2x.png";
 
 export default function Entry(props) {
   return (

@@ -36,7 +36,7 @@ p {
 /* navigation bar */
 
 .nav {
-  padding: 0.4rem 0.5rem;
+  padding: 0.5rem;
   background: var(--primary-pink);
   display: flex;
   justify-content: center;
@@ -151,4 +151,14 @@ p {
   .entry__text {
     font-size: .6rem;
   }
+}
+
+/* footer section */
+
+.custom-footer {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+  color: var(--primary-blue); 
+  font-size: 14px;
+  padding: 16px;
+  text-align: center;
 }
